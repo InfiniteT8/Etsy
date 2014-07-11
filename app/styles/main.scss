@@ -9,44 +9,83 @@ body {
     color: #333;
 }
 
-.header {
-    width:1200px;
-    height:91px;
+header {
+    height:75px;
     font-size:23px;
     margin-right:10px;
     text-align:center;
     border-top:5px solid green;
     border-bottom:5px solid orange;
-    background-color:rgb(243, 242, 238); 
-       
+    background-color:rgb(243, 242, 238);       
 }
 
-p.header {
-  padding-top:10px;
-}
 .containermain {
     width:960px;
     margin:0 auto;
     text-align: center;
-    }
-//contains the center images
+}
+//main image container
 .imgbox {
-text-align: center;
-font-size: 18px;
-font-weight: 200;
+    text-align: center;
+    font-weight: 200;
 }
 
 .box {
     height: auto;
     float: left;
 }
+
+ul#etsycontent    {
+    border-top: 1px solid #e5e5e5;
+    padding : 18px 20px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+//styles listing properties for the images.
+li {
+    margin: 30px;
+    padding: 20px;
+    display: block;
+    position: relative;
+    width: 204px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    display: inline-block;
+}
+//titles
+#p1 {
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+}
+//user_id stuff
+#p2 {
+    color: #B2B2B2;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+//styles price and currency code
+a {
+    color: #74C344;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+}
+
+p.header {
+  padding-top:10px;
+}
 //added identical measures as the header.
-.footer {
-    width:1200px;
-    height:91px;
-    float: left;
+footer {
+    width:100%;
+    float: right;
     clear: both;
     font-size:23px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align:center;
     position:relative;
     border-top:5px solid green;
